@@ -9,9 +9,9 @@
 </head>
 <body>
             <div class="icon">
-              <h2 class="logo1">Potatos</h2>
-              <img src="download.jpg">
-    <div class="add">
+              <h2 class="logo1">Raddish</h2>
+              <img src="raddish.jpg">
+            <div class="add">
                <img  src="add.jpg" >
               </div>
                 
@@ -21,7 +21,7 @@
     </div>
     <div class="desc"> 
       <h3>Crop description</h3>
-      <p>The potato is one of some 150 tuber-bearing species of the genus Solanum (a tuber is the swollen end of an underground stem). The compound leaves are spirally arranged; each leaf is 20–30 cm (about 8–12 inches) long and consists of a terminal leaflet and two to four pairs of leaflets.</p>
+      <p>The radish belongs to the Cruciferae family and its scientific name is Raphanus sativus L. It is an annual or biennial plant</p>
     </div>
     <div class="quantity">
       <span class="Qt">Quantity:</span>
@@ -42,7 +42,21 @@
         </div>
       </form>
       
-      
+      <?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+
+// Create connection
+$conn = mysqli_connect($servername, $username, $password);
+$db=mysqli_select_db($conn,'crop');
+
+// Check connection
+if ($db->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully";
+?>
       
       
     
