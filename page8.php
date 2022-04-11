@@ -21,7 +21,7 @@
     </div>
     <div class="desc"> 
       <h3>Crop description</h3>
-      <p>The radish belongs to the Cruciferae family and its scientific name is Raphanus sativus L. It is an annual or biennial plant</p>
+      <p>The radish belongs to the Cruciferae family and its scientific name is Raphanus sativus L. It is an annual or biennial plant.</p>
     </div>
     <div class="quantity">
       <span class="Qt">Quantity:</span>
