@@ -2,30 +2,37 @@
 <html lang="en">
 <head>
   
-    <title>Crops</title>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <title>Crops</title>
     
 
 </head>
 <body>
+  <div class="mainbody">
+    <div id="body1">
             <div class="icon">
-              <h2 class="logo1">Raddish</h2>
-              <img src="raddish.jpg">
+              <h2>Carrots</h2>
+              <img src="carrots.jpg" class="pimg">
             <div class="add">
-               <img  src="add.jpg" >
+            <a href="" target = "_blank"><img  src="icon1.png" class="right" /></a>
               </div>
                 
              </div>
+            </div>
+    
          
         
-    </div>
+    
     <div class="desc"> 
-      <h3>Crop description</h3>
-      <p>The radish belongs to the Cruciferae family and its scientific name is Raphanus sativus L. It is an annual or biennial plant</p>
-    </div>
+      <h3 class="ing">Crop description </h3>
+      <p class="new">Carrot, (Daucus carota), herbaceous, generally biennial plant of the Apiaceae family that produces an edible taproot.</p>
+  </div>
     <div class="quantity">
       <span class="Qt">Quantity:</span>
-    <p> 10</p>
+    <p class="new"> 10</p>
     </div>
     
       <div classs="container">
@@ -33,35 +40,14 @@
         <form action="#">
         <div class="user-details">
           <div class="input-box">
-            <span class="details">crop type</span>
+            <span class="details">crop type:</span>
             <input type="text">
           </div>
           <div class="input-box">
-            <span class="details">Rate</span>
+            <span class="detail">Rate:</span>
             <input type="text">
         </div>
       </form>
-      
-      <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-
-// Create connection
-$conn = mysqli_connect($servername, $username, $password);
-$db=mysqli_select_db($conn,'crop');
-
-// Check connection
-if ($db->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-echo "Connected successfully";
-?>
-      
-      
-    
-    
-    
    <div class="table-container">
      <h1 class="heading">Farmer Details</h1>
      <table class="table">
@@ -69,8 +55,9 @@ echo "Connected successfully";
          <tr>
            <th>Farmer Name</th>
            <th>Family Count</th>
-           <th>Product Rate</th>
+           <th>Market Rate</th>
            <th>Farmer Rate</th>
+           <th>Option</th>
            <th>Option</th>
          </tr>
        </thead>
@@ -78,34 +65,38 @@ echo "Connected successfully";
          <tr>
            <td data-label="Farmer Name">Ram Thapa</td>
            <td data-label="Family Count">5</td>
-           <td data-label="Product Rate">40</td>
+           <td data-label="Market Rate">40</td>
            <td data-label="Farmer Rate">35</td>
+           <td data-label="Option"><a href="option" class="btn-danger">Edit</a></td>
            <td data-label="Option"><a href="option" class="btn">Delete</a></td>
          
           </tr>
           <tr>
-            <td data-label="Farmer Name">Marco Botton Tuttofare</td>
+            <td data-label="Farmer Name">Shyam Bhattarai</td>
             <td data-label="Family Count">4</td>
-            <td data-label="Product Rate">50</td>
+            <td data-label="Market Rate">50</td>
             <td data-label="Farmer Rate">40</td>
+            <td data-label="Option"><a href="option" class="btn-danger">Edit</a></td>
             <td data-label="Option"><a href="option" class="btn">Delete</a></td>
             
           
            </tr>
            <tr>
-            <td data-label="Farmer Name">Mariah Maclachlan Better</td>
+            <td data-label="Farmer Name">Manish Thapa</td>
             <td data-label="Family Count">6</td>
-            <td data-label="Product Rate">41</td>
+            <td data-label="Market Rate">41</td>
             <td data-label="Farmer Rate">50</td>
+            <td data-label="Option"><a href="option" class="btn-danger">Edit</a></td>
             <td data-label="Option"><a href="option" class="btn">Delete</a></td>
             
           
            </tr>
            <tr>
-            <td data-label="Farmer Name">Valerie Liberty Head Chef</td>
+            <td data-label="Farmer Name">Kajal Agarawal</td>
             <td data-label="Family Count">3</td>
-            <td data-label="Product Rate">50</td>
+            <td data-label="Market Rate">50</td>
             <td data-label="Farmer Rate">45</td>
+            <td data-label="Option"><a href="option" class="btn-danger">Edit</a></td>
             <td data-label="Option"><a href="option" class="btn">Delete</a></td>
             
           
@@ -113,6 +104,7 @@ echo "Connected successfully";
        </tbody>
      </table>
    </div>
-    
+  </div>
+  </div>
 </body>
 </html>

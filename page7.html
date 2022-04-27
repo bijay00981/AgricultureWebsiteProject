@@ -9,8 +9,8 @@
 </head>
 <body>
             <div class="icon">
-              <h2 class="logo1">Raddish</h2>
-              <img src="raddish.jpg">
+              <h2 class="logo1">Ginger</h2>
+              <img src="ginger.jpg">
             <div class="add">
                <img  src="add.jpg" >
               </div>
@@ -21,7 +21,7 @@
     </div>
     <div class="desc"> 
       <h3>Crop description</h3>
-      <p>The radish belongs to the Cruciferae family and its scientific name is Raphanus sativus L. It is an annual or biennial plant</p>
+      <p>The ginger plant has a thick, branched rhizome (underground stem) with a brown outer layer and yellow centre that has a spicy, citrusy aroma</p>
     </div>
     <div class="quantity">
       <span class="Qt">Quantity:</span>
@@ -42,21 +42,7 @@
         </div>
       </form>
       
-      <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
 
-// Create connection
-$conn = mysqli_connect($servername, $username, $password);
-$db=mysqli_select_db($conn,'crop');
-
-// Check connection
-if ($db->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-echo "Connected successfully";
-?>
       
       
     

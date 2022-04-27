@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+    
+    
+}
+html,body{
+    height: 100%;
+    background-color:  white;
+    
+}
+.header{
+    width: 100%;
+    height:70px;
+    background: linear-gradient(120deg,#5aa7a7 , #cde0c9);
+    
+      
+}
+    
+
+.innerheader{
+    height: 100%;
+    width: 900px;
+    
+    
+    
+    
+    
+}
+.logo{
+    height: 100%;
+    float: left; 
+    margin-left: 200px;
+    letter-spacing: 2px;
+    display: block;
+    line-height: 60px;
+    
+    
+
+}
+.logo h1{
+    color:white;
+    height:100%;
+    font-size: 38px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.nav{  
+    float:right;
+    margin-right: -500px;
+    
+    
+   
+}
+    
+    
+
+.nav li {
+    position: relative;
+    
+    display: inline-block;
+    
+    
+}
+.nav li a{
+    display: block;
+    padding: 0 15px;
+    color: white;
+    line-height: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: 500;
+   
+    
+}
+.active, .nav li a:hover{
+    border-bottom: 5px solid black;
+    transition: .5s;
+    color: black;
+}
+
+.subnav  li a:hover{
+    background:linear-gradient(120deg,#5aa7a7 , #cde0c9);
+    color: blue;
+}
+.nav li a:onclick{
+    color: blue;
+    
+}
+.subnav{
+    position: absolute;
+    top:60px;
+    background: linear-gradient(120deg,#5aa7a7 , #cde0c9);;
+    display: none;
+    
+}
+.nav li:hover > .subnav{
+    display: block;
+    
+
+}
+.subnav1 li a{
+    width:150px;
+    float:none;
+    display: list-item;
+    position: relative;
+    font-size: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Body */
+.vegetablesection{
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.vegetablesection h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color:#68b2A0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+img{
+    border-radius: 30px;
+}
+.dec1{
+    font-size: 35px;
+    font-weight: 700;
+    color:#68b2A0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.ed{
+    margin-top: -60px;
+    margin-left: 600px;
+}
+.add{
+    font-size: 20px;
+    font-weight: 700;
+    color:#68b2A0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline;
+ 
+}
+
+.delete{
+    font-size: 20px;
+    font-weight: 700;
+    color:#68b2A0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+.first{
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.secound{
+    margin-left: 200px;
+    margin-top: -100px;
+    
+}
+.secound img{
+    margin-top: -58px;
+}
+.third{
+    margin-left: 350px;
+    margin-top: -150px;
+}
+.third img{
+    margin-top: -58px;
+}
+.fourth{
+    margin-left: 500px;
+    margin-top: -150px;
+    
+}
+.fourth img{
+    margin-top: -58px;
+}
+.fifth{
+    margin-left: 650px;
+    margin-top: -150px;
+}
+.fifth img{
+    margin-top: -58px;
+}
+.sixth{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.sixth img{
+    margin-top: 100px;
+}
+.seventh{
+    margin-left: 200px;
+    margin-top: -150px;
+    
+}
+.seventh img{
+    margin-top: -58px;
+}
+.eight{
+    margin-left: 350px;
+    margin-top: -150px;
+}
+.eight img{
+
+        margin-top: -58px;
+    
+}
+.ninth{
+    margin-left: 500px;
+    margin-top: -150px;
+    
+}
+.ninth img{
+    margin-top: -58px;
+}
+.tenth{
+    margin-left: 650px;
+    margin-top: -150px;
+}
+.tenth img{
+    margin-top: -58px;
+}
+
+
+
+
+
+/*Footer*/
+.footer{
+    margin-top: 350px;
+    background:linear-gradient(120deg,#5aa7a7 , #cde0c9);
+    color:white;
+    height:300px;
+    position: relative;
+}
+.footer .footer-content{
+    border: 1px solid black;
+    height: 300px;
+}
+.footer .footer-bottom{
+    margin: 10px;
+    
+    color: gray;
+    height:40px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top:20px;
+    width:100%;
+}
+.contno{
+    margin-top: -20px;
+    margin-left: 1100px;
+}
+.adde{
+    margin-left: 1100px;
+}
+.muni{
+    margin-left: 50px;
+    margin-top: 10px;
+}

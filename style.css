@@ -1,12 +1,17 @@
 *{
     margin:0;
     padding :0;
-    font-family: "montserrat",sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
 body{
-    background:rgba(98, 177, 226, 0.733); 
+    background: linear-gradient(120deg,#5aa7a7 , #cde0c9);
     height: 100px;
+}
+.mainbody{
+margin-left: 100px;
+margin-top: 100px;
+margin-right: 50px;
 }
 .header{
     height: 120px;
@@ -15,59 +20,55 @@ body{
 }
 
 .icon{
-    display: inline-flex;
+    display:flex;
     width: 100px;
     height: 100px;
+    border-radius: 40px;
+    color:white;
+    
 }
+.pimg{
+    margin-top: 50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 70px;
+}
+
 .add{
-    width:100%;
-    display: flex;
-    height: 100px;
-    
-
+    position:relative;
+    left:700px;   
+    width: 200px;
 }
-
-
-.logo1{
-    display: flex;
-    width: 100%;
-    float: right;
-    height: 100px;
-    margin-right: 40px;
-    padding: 30px;
-    
-}
-.logo{
-    line-height: 5px;
-    padding-top: 2px;
+.right{
+    position:relative;
+    left:200px;
+    width: 75px;
+    height: 75px;
     border-radius: 20px;
-    width:200px;
-    float:down;
-    height: 100px;
-    display:flex;
-    float: top;
+    margin: 10px 10px 10px 10px;
 
-
+background: #5aa7a7;
+    
+    
+   
 }
 .desc{
     width: 100%;
-    height: 100px;
+    height: 90px;
     padding: 0%;
-    
+    margin-top: 50px;   
 }
-.rate{
-    float:top;
-    padding: 50px;
+.ing{
+    color:white;
 }
+
 
 .table{
     width:100%;
     border-collapse: collapse;
-    
-
 }
 .table thead{
-    background-color: #ee2828;
+    background: color #5aa7a7;;
 }
 .table thead tr th{
     font-size: 14px;
@@ -83,8 +84,8 @@ body{
     font-size: 14px;
     letter-spacing: 0.35px;
     font-weight: normal;
-    color: #f1f1f1;
-    background-color: #3c3f44;
+    color:#5aa7a7;
+    background-color: white;
     padding:8px;
     text-align: center;
     border: 1px solid #dee2e685;
@@ -94,7 +95,22 @@ body{
     text-decoration: none;
     line-height: 35px;
     display: inline-block;
-    background-color: #ff1046;
+    background-color: #5aa7a7;
+    font-weight: medium;
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: 14px;
+    opacity: 1;
+}
+.table tbody tr td .btn-danger{
+    width: 130px;
+    text-decoration: none;
+    line-height: 35px;
+    display: inline-block;
+    background-color: #5aa7a7;
     font-weight: medium;
     color: #FFFFFF;
     text-align: center;
@@ -125,7 +141,7 @@ body{
     bottom: 0;
     height: 3px;
     width: 30px;
-    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    background: linear-gradient(120deg,#5aa7a7 , #cde0c9);
 }
 .container form .user-details{
     display: flex;
@@ -137,4 +153,35 @@ body{
     display:flex;
     width: 100%;
     height: 50px;
+    
+}
+.title{
+    color: white;
+}
+.Qt{
+    color: white;
+}
+.heading{
+    color:white;
+}
+.details{
+    color:white;
+    padding: 50px;
+}
+.detail{
+    color:white;
+    padding: 68px; 
+    margin-top:50px;
+}
+.new{
+    color:white;
+}
+#body1{
+    background: linear-gradient(120deg,#5aa7a7 , #cde0c9);
+    width: 100%;
+    height: 75px;
+    margin:0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+    
 }
